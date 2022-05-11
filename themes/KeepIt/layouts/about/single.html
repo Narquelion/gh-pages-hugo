@@ -1,0 +1,164 @@
+{{ define "content" }}
+<div class="post-warp archive">
+  <div class="post-content">
+
+  <p><span class="small">(This section adheres to the <a href="http://microformats.org/wiki/h-card">microformats2 h-card <i class="far fa-address-card"></i> standard</a>.)</span></p>
+
+  <div class="h-card">
+    <div class="container card card-body">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <a class="u-url u-uid" rel="me" href="{{ .Site.BaseURL }}about/"><img class="u-photo card-img" src="{{ .Site.BaseURL }}{{ .Site.Params.Image.Url }}" /></a>
+        </div>
+        <div class="col-6">
+          <div class="row pb-2">
+            <div class="col-1">
+              <i class="text-color-theme-muted fas fa-user"></i>
+            </div>
+            <div class="col-10 p-name">
+              {{ .Site.Author.name }}
+            </div>
+          </div>
+          {{ with .Site.Author.birthday }}
+          <div class="row pb-2" style="display: none;">
+            <div class="col-4">
+              <strong>Birthday:</strong>
+            </div>
+            <div class="col-8">
+              <span class="dt-bday">{{ . }}</span>
+            </div>
+          </div>
+          {{ end }}
+          {{ with .Site.Author.gender }}
+          <div class="row pb-2" style="display: none;">
+            <div class="col-4">
+              <strong>Gender:</strong>
+            </div>
+            <div class="col-8">
+              <span class="p-gender-identity">{{ . }}</span>
+            </div>
+          </div>
+          {{ end }}
+          {{ with .Site.Params.Social.Email}}
+          <div class="row pb-2">
+            <div class="col-1">
+              <strong><i class="text-color-theme-muted fas fa-envelope"></i></strong>
+            </div>
+            <div class="col-11 u-email">
+              <a href="mailto:{{.}}">{{ . }}</a> <span class="muted small">(academic inquiries)</span>
+            </div>
+          </div>
+          {{ end }}
+          {{ with .Site.Params.Social.EmailOther}}<div class="row pb-2">
+            <div class="col-1">
+              <i class="text-color-theme-muted fas fa-envelope"></i>
+            </div>
+            <div class="col-11 u-email">
+              <a href="mailto:{{.}}">{{ . }}</a> <span class="muted small">(other inquiries)</span>
+            </div>
+          </div>
+          {{ end }}
+          <div class="row pb-2">
+            <div class="col-1">
+              <i class="text-color-theme-muted fas fa-graduation-cap"></i>
+            </div>
+            <div class="col-10 p-job-title">
+              {{ .Site.Author.position }}
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-1">
+              <i class="text-color-theme-muted fas fa-school"></i>
+            </div>
+            <div class="col-10 p-org">
+              {{ .Site.Author.affiliation }}
+            </div>
+          </div>
+          <div class="row pb-2" style="display: none;">
+            <div class="col-4">
+              <strong>Note:</strong>
+            </div>
+            <div class="col-8">
+              <span class="p-note">{{ .Site.Params.description }}</span>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-1">
+              <i class="text-color-theme-muted fas fa-globe-americas"></i>
+            </div>
+            <div class="col-10">
+              <span class="p-locality">{{ .Site.Author.locality }}</span>,
+              <span class="p-region">{{ .Site.Author.province }}</span>,
+              <span class="p-country-name">{{ .Site.Author.country }}</span>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-1">
+              <i class="text-color-theme-muted fas fa-language"></i>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                  <div class="col-12">
+                    {{ range .Site.Author.mylanguages }}
+                    <span class="p-language" value="{{ .code }}">{{ .name }}</span> <span class="badge badge-theme badge-pill">{{ .proficiency }}</span>
+                    {{ end }}
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="row pb-2" style="display: none;">
+            <div class="col-4">
+              <strong>Handles:</strong>
+            </div>
+            <div class="col-8">
+              <ul>
+              {{ range .Site.Author.Params.handles }}
+                <li class="p-nickname">{{ . }}</li>
+              {{ end }}
+              </ul>
+            </div>
+          </div>
+          <div class="row pb-2" style="display: none;">
+            <div class="col-4">
+              <strong>Nicknames:</strong>
+            </div>
+            <div class="col-8">
+              <ul>
+              {{ range .Site.Author.Params.nicknames }}
+                <li class="p-nickname">{{ . }}</li>
+              {{ end }}
+              </ul>
+            </div>
+          </div>
+
+        <div class="row pb-2">
+          <div class="col-1">
+            <i class="text-color-theme-muted fas fa-venus-mars"></i>
+          </div>
+          <div class="col-10">
+            {{ .Site.Author.pronouns }}
+          </div>
+        </div>
+        <div class="row pb-2" style="display: none;">
+          <div class="col-4">
+            <strong>Dietary preference:</strong>
+          </div>
+          <div class="col-8 p-dietary-preference">
+              I am an {{ .Site.Author.Params.dietarypreference }} but my order of preference for food is vegetarian > pescetarian > omnivorous.
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div style="display: none">
+      <data class="p-given-name">Mathew</data>
+      <data class="p-additional-name">Nicolas</data>
+      <data class="p-family-name">Jacqmin-Kramer</data>
+    </div>
+  </div>
+</div>
+</div>
+
+{{ .Content }}
+
+{{ end }}

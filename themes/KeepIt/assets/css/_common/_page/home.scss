@@ -1,0 +1,114 @@
+
+  /** Home **/
+
+  .intro-body{
+    background-image: linear-gradient(to right, $dark-background-color, $dark-background-color 50%, $light-background-color 50%, $light-background-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .intro-container{
+    max-width: 100%
+  }
+
+  .intro-footer .footer {
+    text-align: right;
+    line-height: 2rem;
+    padding-right: 2em;
+  }
+
+  // .intro-header .header-logo a{
+  //   color: $dark-global-link-color;
+  //   .hover {
+  //     color: $dark-global-link-hover-color;
+  //   }
+  // }
+
+  .intro-left, .intro-right {
+    padding-left: 8em;
+    padding-right: 8em;
+    line-height: 3em;
+  }
+
+  .intro-left {
+    color: $dark-font-color !important;
+  }
+
+  .intro-right a {
+    color: $light-global-link-color;
+    a:hover {
+      color: $light-global-link-hover-color !important;
+    }
+  }
+
+  .intro-right h1 {
+    color: $light-font-color !important;
+  }
+
+  .intro{
+    -webkit-transform: translateY(25vh);
+    -moz-transform: translateY(25vh);
+    -ms-transform: translateY(25vh);
+    -o-transform: translateY(25vh);
+    transform: translateY(25vh);
+    text-align: center;
+  }
+
+  .intro-avatar {
+      //padding: 10px;
+
+      display: block;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+
+      width: 100%;
+      left: 0px;
+      text-align: center;
+
+      img {
+        width: 128px;
+        height: auto;
+        //display: inline-block;
+        -webkit-border-radius: 100%;
+        border-radius: 100%;
+        -webkit-box-shadow: 0 0 0 0.3618em rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 0 0.3618em rgba(0, 0, 0, 0.05);
+        margin: 0 auto;
+        -webkit-transition: all ease 0.4s;
+        -moz-transition: all ease 0.4s;
+        -o-transition: all ease 0.4s;
+        transition: all ease 0.4s;
+        //cursor: pointer;
+        &:hover {
+          //position: relative;
+          //-webkit-transform: translateY(-0.75em);
+          //-moz-transform: translateY(-0.75em);
+          //-ms-transform: translateY(-0.75em);
+          //-o-transform: translateY(-0.75em);
+          //transform: translateY(-0.75em);
+          //cursor: pointer;
+        }
+      }
+    }
+
+  h2.description {
+    font-size: 1em;
+    font-weight: normal;
+    padding: 5px;
+  }
+
+  .social-links {
+    a {
+      font-size: 2em;
+      padding: 0 5px;
+
+      &:hover {
+
+        background-color: transparent;
+      }
+    }
+    .ai {
+      font-size: 1.15em;
+    }
+  }

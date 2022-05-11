@@ -1,0 +1,14 @@
+
+  {{ $bootstrap := resources.Get "/css/bootstrap.card.css" }}
+  {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.Minify}}
+
+  {{ $iconfont := resources.Get "font/iconfont.css" }}
+  {{ $fa := resources.Get "font/fa.min.css" }}
+  {{ $academicons := resources.Get "font/academicons.min.css" }}
+
+  <script src="/font/all.min.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="{{ $bootstrap.RelPermalink }}">
+  <link rel="stylesheet" href="{{ $iconfont.RelPermalink }}">
+  <link rel="stylesheet" href="{{ $academicons.RelPermalink }}">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">

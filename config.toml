@@ -1,0 +1,206 @@
+baseURL = "https://mathewkramer.io"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Mathew A. Kramer"
+theme = "KeepIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+disqusShortname = "yourdiscussshortname"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv"
+    weight = 5
+
+[params]
+    since = 2018
+    author = "Mathew A. Kramer" # Author's name
+    MusicSubtitle = 'game music composer<br/>taiko artist @<br /><a href="https://michigantaiko.net" target="_blank">The Great Lakes Taiko Center</a>' # Subtitle
+    AcademicSubtitle = 'ph.d. candidate @<br/><a href="/about">the university of michigan</a>' # Subtitle
+
+    cdn_url = "" # Base CDN URL
+    home_mode = "" # post or other
+    dateFormatToUse = "" # set date format, default "2 January 2006"
+
+    google_verification = ""
+    bing_verification = ""
+    yandex_verification = ""
+    pinterest_verification = ""
+    baidu_verification = ""
+
+    avatar = "/images/me/avatar.png" #comment it to use gravatar
+    socialShare = true
+
+    description = "" # site description
+    keywords = "" # site keywords
+
+    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+[params.gravatar]
+    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+
+
+[params.social]
+    Email   = "arkram@umich.edu"
+    EmailOther = "kramer.mathew.a@gmail.com"
+
+    GitHub = "Narquelion"
+    #Linkedin = "xxxx"
+
+    #Instagram = "xxxx"
+
+    Googlescholar = "8VsVQ2UAAAAJ"
+    ORCID = "0000-0002-0509-1453"
+    OSF = "ubas9"
+    Twitter = "mathewlinguist"
+    #Medium = "xxxx"
+    #Youtubechannel = "xxxx"
+    #Tumblr ="xxxx"
+    #Keybase = "xxxx"
+    #Pinterest = "xxxx"
+    #Reddit = "xxxx"
+    #Codepen = "xxxx"
+    #Bitbucket = "xxxx"
+    #Stackoverflow = "xxxxx"
+    Soundcloud = "mathewmakesmusic"
+    #Spotify = "xxxx"
+    Bandcamp = "mathewmakesmusic"
+    Kofi = "mathewmakesstuff"
+    #Paypal = "xxxx"
+    #Fivehundredpx = "xxxx"
+    #Mix = "xxxx"
+    #Goodreads = "xxxx"
+    #Lastfm = "xxxx"
+    #Hackernews = "xxxx"
+    #Kickstarter = "xxxx"
+    #Patreon = "xxxx"
+    #Steam = "xxxx"
+    #Twitch = "xxxx"
+    #Strava = "xxxx"
+    #Skype = "xxxx"
+    #Whatsapp = "xxxx"
+    #Zhihu = "xxxx"
+    #Douban = "xxxx"
+    #Angellist = "xxxx"
+    #Slidershare = "xxxx"
+    #Jsfiddle = "xxxx"
+    #Deviantart = "xxxx"
+    #Behance = "xxxx"
+    #Dribble = "xxxx"
+    #Wordpress = "xxxx"
+    #Vine = "xxxx"
+    #Researchgate = "xxxx"
+    #Mastodon = "xxxx"
+    #Thingiverse = "xxxx"
+
+[params.share]
+Twitter = true
+#Facebook = true
+Reddit = true
+#Linkedin = true
+#Pinterest = true
+HackerNews = true
+#Mix = true
+Tumblr = true
+#VKontakte = true
+#Douban = true
+#Weibo = true
+
+# Used only for Seo schema
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[author]
+  name = "Mathew A. Kramer"
+  birthday = "1993-10-18"
+  gender = "agender"
+  pronouns = "he/they"
+  affiliation = "University of Michigan"
+  position = "Ph.D. candidate"
+  locality = "Ann Arbor"
+  province = "Michigan"
+  country = "USA"
+
+  [author.mylanguages]
+
+    [author.mylanguages.l1]
+      name = "English"
+      proficiency = "L1"
+      code = "en"
+    [author.mylanguages.l2]
+      name = "Japanese"
+      proficiency = "L2"
+      code = "ja"
+
+      [author.mylanguages.l3]
+        name = "Russian"
+        proficiency = "L3"
+        code = "ru"
+
+  [params.publisher]
+    name = "mathew"
+
+    [params.publisher.logo]
+      url = "/images/logo.jpg"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "/images/logo.jpg"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "/images/cover5.png"
+    width = 800
+    height = 600
+
+[params.gitalk]
+owner = ""       # Your GitHub ID
+repo = ""        # The repo to store comments
+clientId = ""    # Your client ID
+clientSecret = "" # Your client secret
+
+[params.valine]
+  enable = false
+  language = 'en'
+  appId = 'your appId'
+  appKey = 'your appKey'
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm'
+  placeholder = 'your comments ...'
+  visitor = true
+
+[params.utterances]       # https://utteranc.es/
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+
+[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret

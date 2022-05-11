@@ -1,0 +1,38 @@
+
+
+
+<div class="row align-items-center">
+  <div class="col-6 intro intro-left dark-theme">
+      {{if .Site.Params.AcademicSubtitle}}<h1 class="description">{{ .Site.Params.AcademicSubtitle | safeHTML }}</h1>
+      {{end}}
+  </div>
+  {{ $cdn_url := .Scratch.Get "cdn_url" }}
+  {{ with .Site.Params.avatar}}
+  {{ $avatar := .}}
+  <div class="intro intro-avatar">
+      <img src="{{ (printf "%s%s" $cdn_url $avatar)}}">
+  </div>
+  {{ end }}
+  {{ if or .Params.gravatar.Email (and .Site.Params.gravatar.Email (ne .Params.gravatar.Email false)) }}
+  <div class="intro intro-avatar">
+    <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar.email }}?s=240&d=mp" alt="gravatar">
+  </div>
+  {{ end }}
+  <div class="col-6 intro intro-right light-theme">
+      {{if .Site.Params.MusicSubtitle}}<h1 class="description">{{ .Site.Params.MusicSubtitle | safeHTML }}</h1>
+      {{end}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6 intro intro-left dark-theme">
+      <div class="social-links">
+        {{ partial "social.html" . }}
+      </div>
+  </div>
+  <div class="col-6 intro intro-right light-theme">
+    <div class="social-links">
+      {{ partial "social-personal.html" . }}
+    </div>
+  </div>
+</div>
