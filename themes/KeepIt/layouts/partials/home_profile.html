@@ -7,7 +7,7 @@
 </div>
 
 <div class="row align-items-center">
-  <div class="col intro intro-left dark-theme">
+  <div class="col-lg-6 col-md-6 col-sm-12 intro intro-left dark-theme">
       {{if .Site.Params.AcademicSubtitle}}<h1 class="description">{{ .Site.Params.AcademicSubtitle | safeHTML }}</h1>
       {{end}}
   </div>
@@ -23,19 +23,19 @@
     <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar.email }}?s=240&d=mp" alt="gravatar">
   </div>
   {{ end }}
-  <div class="col intro intro-right light-theme">
+  <div class="col-lg-6 col-md-6 col-sm-12 intro intro-right light-theme">
       {{if .Site.Params.MusicSubtitle}}<h1 class="description">{{ .Site.Params.MusicSubtitle | safeHTML }}</h1>
       {{end}}
   </div>
 </div>
 
 <div class="row social-main">
-  <div class="col intro intro-left dark-theme">
+  <div class="col-lg-6 col-md-6 col-sm-12 intro intro-left dark-theme">
       <div class="social-links">
         {{ partial "social.html" . }}
       </div>
   </div>
-  <div class="col intro intro-right light-theme">
+  <div class="col-lg-6 col-md-6 col-sm-12 intro intro-right light-theme">
     <div class="social-links">
       {{ partial "social-personal.html" . }}
     </div>

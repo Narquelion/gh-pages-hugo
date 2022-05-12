@@ -155,11 +155,7 @@
         }
 
         .card img {
-            display: flex;
-            width: auto;
-            height: auto;
-            margin: 0 auto;
-            overflow: hidden;
+          padding: 1em;
         }
 
         img[data-action="zoom"] {

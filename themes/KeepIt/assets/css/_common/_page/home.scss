@@ -1,7 +1,14 @@
 
   /** Home **/
 
-@media only screen and (max-width: 499px) {
+@media (max-width: 767px) {
+
+  .navbar a {
+    color: $light-global-link-color;
+    a:hover {
+      color: $light-global-link-hover-color !important;
+    }
+  }
 
   .intro-footer .footer .copyright {
     font-size: 0.75em;
@@ -36,7 +43,7 @@
   }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 500px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
   .intro-footer .footer .copyright {
     font-size: 0.75em;
@@ -65,7 +72,8 @@
   }
 }
 
- @media only screen and (min-width: 1000px) {
+@media (min-width: 992px) {
+
    .intro-footer .footer {
      font-size: 1em;
      width: 40%;
@@ -84,64 +92,52 @@
   }
 }
 
- @media only screen and (min-width: 500px) {
+@media (min-width: 768px) {
     .intro-body{
       background-image: linear-gradient(to right, $dark-background-color, $dark-background-color 50%, $light-background-color 50%, $light-background-color);
       background-size: cover;
       background-repeat: no-repeat;
     }
-}
 
-  .intro-container{
-    max-width: 100%
-  }
-
-  .intro-footer .footer {
-    text-align: right;
-    line-height: 2rem;
-    padding-right: 2em;
-  }
-
-  // .intro-header .header-logo a{
-  //   color: $dark-global-link-color;
-  //   .hover {
-  //     color: $dark-global-link-hover-color;
-  //   }
-  // }
-
-
-
-  .intro-left {
-    color: $dark-font-color !important;
-  }
-
-  .intro-right a {
-    color: $light-global-link-color;
-    a:hover {
-      color: $light-global-link-hover-color !important;
-    }
-  }
-
-  .intro-right h1 {
-    color: $light-font-color !important;
-  }
-
-  .intro{
-    text-align: center;
-  }
-
-  @media only screen and (min-width: 500px) {
-    .intro{
+    .intro {
       -webkit-transform: translateY(25vh);
       -moz-transform: translateY(25vh);
       -ms-transform: translateY(25vh);
       -o-transform: translateY(25vh);
       transform: translateY(25vh);
     }
+}
+
+.intro-container{
+  max-width: 100%
+}
+
+.intro-footer .footer {
+  text-align: right;
+  line-height: 2rem;
+  padding-right: 2em;
+}
+
+.intro-left {
+  color: $dark-font-color !important;
+}
+
+.intro-right a {
+  color: $light-global-link-color;
+  a:hover {
+    color: $light-global-link-hover-color !important;
   }
+}
 
+.intro-right h1 {
+  color: $light-font-color !important;
+}
 
-@media only screen and (max-width: 499px) {
+.intro{
+  text-align: center;
+}
+
+@media (max-width: 767px) {
     .intro {
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
