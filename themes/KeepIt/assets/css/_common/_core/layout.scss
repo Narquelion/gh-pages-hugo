@@ -17,7 +17,7 @@
     height: 4rem;
     line-height: 4rem;
     font-size: 1.1em;
-    font-weight: bold;
+    //font-weight: bold;
     width: 100%;
     .container {
       width: auto;
@@ -80,4 +80,28 @@
     font-size: 2em;
     transform: translateY(35vh);
     text-align: center;
+  }
+
+  .taiko-header {
+    width: 65%;
+    max-width: 600px;
+    height: auto;
+    position: absolute;
+
+    top: 10em;
+    left: 0px;
+
+    transform: translate(-41%, 0);
+
+    //display: inline-block;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 0 0 0.3618em rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 0.3618em rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+  }
+
+  .taiko-content {
+    width: 60%;
+    float: right;
   }

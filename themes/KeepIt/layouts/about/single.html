@@ -49,7 +49,8 @@
             </div>
           </div>
           {{ end }}
-          {{ with .Site.Params.Social.EmailOther}}<div class="row pb-2">
+          {{ with .Site.Params.Social.EmailOther}}
+          <div class="row pb-2" style="display: none;">
             <div class="col-1">
               <i class="text-color-theme-muted fas fa-envelope"></i>
             </div>
@@ -131,7 +132,7 @@
             </div>
           </div>
 
-        <div class="row pb-2">
+        <div class="row pb-2" style="display: none;">
           <div class="col-1">
             <i class="text-color-theme-muted fas fa-venus-mars"></i>
           </div>
@@ -156,9 +157,11 @@
       <data class="p-family-name">Jacqmin-Kramer</data>
     </div>
   </div>
+
+{{ .Content }}
+
 </div>
 </div>
 
-{{ .Content }}
 
 {{ end }}
