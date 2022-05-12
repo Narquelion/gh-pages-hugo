@@ -11,9 +11,13 @@
   }
 
   .intro-footer .footer .copyright {
-    font-size: 0.75em;
-    text-align: right;
-    line-height: 1em;
+    font-size: 0.75em !important;
+  }
+
+  .intro-footer .footer {
+    text-align: center !important;
+    line-height: 1em !important;
+    padding-right: 0em !important;
   }
 
   .social-top, .social-bottom {
@@ -46,10 +50,15 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
   .intro-footer .footer .copyright {
-    font-size: 0.75em;
-    width: 40%;
+    font-size: 0.7em;
+    width: 50%;
     float: right;
-    line-height: 1.2em;
+  }
+
+  .intro-footer .footer {
+    padding-right: 1em !important;
+    line-height: 1em !important;
+    height: 2.5rem !important;
   }
 
   .social-top, .social-bottom {
@@ -74,12 +83,17 @@
 
 @media (min-width: 992px) {
 
-   .intro-footer .footer {
-     font-size: 1em;
-     width: 40%;
-     float: right;
-     line-height: 1.5em !important;
-   }
+  .intro-footer .footer .copyright {
+    font-size: 0.9em;
+    width: 50%;
+    float: right;
+  }
+
+  .intro-footer .footer {
+    padding-right: 1em !important;
+    line-height: 1em !important;
+    height: 2.5rem !important;
+  }
 
   .intro-left, .intro-right {
     padding-left: 8em;
