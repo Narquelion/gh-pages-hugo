@@ -1,8 +1,13 @@
-
-
+<div class="row social-top">
+  <div class="col intro intro-left dark-theme">
+      <div class="social-links">
+        {{ partial "social.html" . }}
+      </div>
+  </div>
+</div>
 
 <div class="row align-items-center">
-  <div class="col-6 intro intro-left dark-theme">
+  <div class="col intro intro-left dark-theme">
       {{if .Site.Params.AcademicSubtitle}}<h1 class="description">{{ .Site.Params.AcademicSubtitle | safeHTML }}</h1>
       {{end}}
   </div>
@@ -18,21 +23,29 @@
     <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar.email }}?s=240&d=mp" alt="gravatar">
   </div>
   {{ end }}
-  <div class="col-6 intro intro-right light-theme">
+  <div class="col intro intro-right light-theme">
       {{if .Site.Params.MusicSubtitle}}<h1 class="description">{{ .Site.Params.MusicSubtitle | safeHTML }}</h1>
       {{end}}
   </div>
 </div>
 
-<div class="row">
-  <div class="col-6 intro intro-left dark-theme">
+<div class="row social-main">
+  <div class="col intro intro-left dark-theme">
       <div class="social-links">
         {{ partial "social.html" . }}
       </div>
   </div>
-  <div class="col-6 intro intro-right light-theme">
+  <div class="col intro intro-right light-theme">
     <div class="social-links">
       {{ partial "social-personal.html" . }}
     </div>
+  </div>
+</div>
+
+<div class="row social-bottom">
+  <div class="col intro intro-right light-theme">
+      <div class="social-links">
+        {{ partial "social-personal.html" . }}
+      </div>
   </div>
 </div>
