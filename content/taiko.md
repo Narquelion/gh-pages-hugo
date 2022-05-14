@@ -14,4 +14,4 @@ I drum with [Godaiko Drummers](https://michigantaiko.net/performances) and the [
 
 There are taiko groups all over the U.S., and many offer lessons! Here in Michigan, classes and activities are availabe through the [Great Lakes Taiko Center](https://michigantaiko.net).
 
-I am also available to provide private instruction virtually or in-person; send me an email at kramer.mathew.a AT gmail.com and we can probably set something up!
+I am also available to provide private instruction virtually or in-person; send me an email at kramer.mathew.a AT gmail.com and we can set something up! (cost negotiable)
