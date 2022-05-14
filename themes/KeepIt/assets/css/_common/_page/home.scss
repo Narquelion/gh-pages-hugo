@@ -3,11 +3,12 @@
 
 @media (max-width: 767px) {
 
-  .navbar a {
+  .intro-header a {
     color: $light-global-link-color;
-    a:hover {
+  }
+
+  .intro-header a:hover {
       color: $light-global-link-hover-color !important;
-    }
   }
 
   .intro-footer .footer .copyright {
@@ -49,6 +50,14 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .intro-header a {
+    color: $light-global-link-color;
+  }
+
+  .intro-header a:hover {
+      color: $light-global-link-hover-color !important;
+  }
+
   .intro-footer .footer .copyright {
     font-size: 0.7em;
     width: 50%;
@@ -83,6 +92,14 @@
 
 @media (min-width: 992px) {
 
+  .intro-header a {
+    color: $light-global-link-color;
+  }
+
+  .intro-header a:hover {
+      color: $light-global-link-hover-color !important;
+  }
+  
   .intro-footer .footer .copyright {
     font-size: 0.9em;
     width: 50%;
