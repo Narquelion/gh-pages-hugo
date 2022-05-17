@@ -1,7 +1,8 @@
 .post-warp {
 
-    .archive-item {
+    row .archive-item {
         margin-left: 2rem;
+        margin-bottom: 2em;
     }
 
     .categories-card {
@@ -32,12 +33,16 @@
         }
     }
 
+    .archive-content {
+      padding-top: 1em !important;
+    }
+
     .archive-item-link {
         display: inline-block;
         text-decoration: none;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        //overflow: hidden;
+        //text-overflow: ellipsis;
+        //white-space: nowrap;
         max-width: 95%;
         &:hover {
             color: $light-global-link-hover-color;
@@ -57,14 +62,15 @@
         }
     }
     .archive-item-date {
-        float: right;
-        text-align: right;
+        //float: right;
+        //text-align: right;
         color: $light-font-secondary-color;
 
         .dark-theme & {
             color: $dark-font-secondary-color;
         }
     }
+
 
     .more-post {
         text-align: right;

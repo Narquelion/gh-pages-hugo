@@ -8,7 +8,7 @@ paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
-disqusShortname = "yourdiscussshortname"
+# disqusShortname = "yourdiscussshortname"
 
 [sitemap]
   changefreq = "monthly"
@@ -36,6 +36,11 @@ disqusShortname = "yourdiscussshortname"
     weight = 3
 
   [[menu.main]]
+    name = "Music"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
     name = "CV"
     url = "/cv"
     weight = 4
@@ -48,6 +53,7 @@ disqusShortname = "yourdiscussshortname"
 [params]
     since = 2018
     author = "Mathew A. Kramer" # Author's name
+    handle = "mathew"
     MusicSubtitle = 'game music composer<br/>taiko artist @<br /><a href="https://michigantaiko.net" target="_blank">The Great Lakes Taiko Center</a>' # Subtitle
     AcademicSubtitle = 'ph.d. candidate @<br/><a href="/about">the university of michigan</a>' # Subtitle
 
