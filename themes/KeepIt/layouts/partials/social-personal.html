@@ -5,6 +5,10 @@
 
 <!-- Social -->
 
+{{ with .Site.Params.Social.TwitterOther }}
+<a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="fab fa-twitter"></i></a>
+{{ end }}
+
 {{ with .Site.Params.Social.Instagram }}
 <a href="https://www.instagram.com/{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><i class="fab fa-instagram"></i></a>
 {{ end }}
@@ -27,9 +31,7 @@
 <a href="https://ko-fi.com/{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><i class="fa-solid fa-mug-saucer"></i></a>
 {{ end }}
 
-{{ with .Site.Params.Social.TwitterOther }}
-<a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="fab fa-twitter"></i></a>
-{{ end }}
+
 
 <!-- Junk -->
 

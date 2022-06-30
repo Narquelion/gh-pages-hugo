@@ -3,6 +3,11 @@
 <a href="mailto:{{.}}" rel="me noopener noreffer" target="_blank"><i class="fas fa-envelope"></i></a>
 {{ end }}
 
+{{ with .Site.Params.Social.Twitter }}
+<a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="fab fa-twitter"></i></a>
+{{ end }}
+
+
 {{ with .Site.Params.Social.Github }}
 <a href="https://github.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="fab fa-github-alt"></i></a>
 {{ end }}
@@ -17,8 +22,4 @@
 
 {{ with .Site.Params.Social.Googlescholar}}
 <a href="https://scholar.google.com/citations?user={{ . }}" rel="me noopener noreffer" target="_blank"><i class="ai ai-google-scholar-square"></i></a>
-{{ end }}
-
-{{ with .Site.Params.Social.Twitter }}
-<a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="fab fa-twitter"></i></a>
 {{ end }}
