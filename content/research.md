@@ -2,7 +2,7 @@
 type = "research"
 +++
 
-## **What I Do**
+# **What I Do**
 
 I am a fourth-year in the linguistics department at the University of Michigan. I'm a member of [Dr. Savithry Namboodiripad's](http://savi.ling.lsa.umich.edu/) [Contact, Cognition and Change Lab](https://github.com/ccc-lab).
 

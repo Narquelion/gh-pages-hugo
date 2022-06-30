@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 title = "Mathew A. Kramer"
 theme = "KeepIt"
 
-paginate = 12
+paginate = 5
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
@@ -81,7 +81,7 @@ googleAnalytics = ""
 
 [params.social]
     Email   = "arkram@umich.edu"
-    EmailOther = "kramer.mathew.a@gmail.com"
+    EmailOther = "mathew@mathewkramer.io"
 
     GitHub = "Narquelion"
     #Linkedin = "xxxx"
@@ -92,6 +92,7 @@ googleAnalytics = ""
     ORCID = "0000-0002-0509-1453"
     OSF = "ubas9"
     Twitter = "mathewlinguist"
+    TwitterOther = "_superlumic"
     #Medium = "xxxx"
     #Youtubechannel = "xxxx"
     #Tumblr ="xxxx"
@@ -101,10 +102,10 @@ googleAnalytics = ""
     #Codepen = "xxxx"
     #Bitbucket = "xxxx"
     #Stackoverflow = "xxxxx"
-    Soundcloud = "mathewmakesmusic"
+    Soundcloud = "superlumic"
     #Spotify = "xxxx"
-    Bandcamp = "mathewmakesmusic"
-    Kofi = "mathewmakesstuff"
+    Bandcamp = "superlumic"
+    Kofi = "superlumic"
     #Paypal = "xxxx"
     #Fivehundredpx = "xxxx"
     #Mix = "xxxx"
