@@ -34,12 +34,12 @@ type: cv
 ### Journal articles
 - **Kramer, M. A.**, Boland, J. E., & Queen, R. _Getting to know_ them: _The influence of familiarity on the production of singular specific_ they (under revision). Preprint available at https://psyarxiv.com/v5yjz.
 - Levshina, N., Namboodiripad, S., Allassonnière-Tang, M., **Kramer, M. A.**, Talamo, L., Verkerk, A., Wilmoth, S., Rodriguez, G. G., Gupton, T., Kidd, E., Liu, Z., Naccarato, C., Nordlinger, R., Panova, A., and Stoynova, N. (Under review).** _Why we need a gradient approach to word order._ Linguistics: An Interdisciplinary Journal of the Language Sciences. https://doi.org/10.31234/osf.io/yg9bf (preprint)
-- Xiang, M., **Kramer, A.**, & Nordmeyer, A. E. (2020).** _An informativity-based account of negation complexity._ Journal of Experimental Psychology: Learning, Memory, and Cognition, 46(10), 1857–1867. https://doi.org/10.1037/xlm0000851
+- Xiang, M., **Kramer, M. A.**, & Nordmeyer, A. E. (2020). _An informativity-based account of negation complexity._ Journal of Experimental Psychology: Learning, Memory, and Cognition, 46(10), 1857–1867. https://doi.org/10.1037/xlm0000851
 
 ### Conference proceedings
 
 - Cheng, L. S. P., **Kramer, M. A.**, Upreti, R., and Namboodiripad, S. (2022). _Moving past indirect proxies for language experience: 'Native speaker' and residential history are poor predictors of language behavior._ To appear in the proceedings of the the 44th Annual Meeting of the Cognitive Science Society.
-- Liu, Z., Upreti, R., **Kramer, M. A.**, and and Namboodiripad, S. (2022). _Does one size fit all in crosslinguistic dependency length minimization?_ o appear in the proceedings of the the 44th Annual Meeting
+- Liu, Z., Upreti, R., **Kramer, M. A.**, and and Namboodiripad, S. (2022). _Does one size fit all in crosslinguistic dependency length minimization?_ To appear in the proceedings of the the 44th Annual Meeting
 of the Cognitive Science Society.
 - Namboodiripad, S., Cuneo, N., **Kramer, M. A.**, Sedarous, Y., Bisnath, F., Sugimoto, Y., and Goldberg, A. (2022). _Backgroundedness predicts island status of non-finite adjuncts in English._ To appear in the proceedings of the the 44th Annual Meeting of the Cognitive Science Society.
 - **Kramer, A. (2021).** _Dependency Lengths in Speech and Writing: A Cross-Linguistic Comparison via YouDePP, a Pipeline for Scraping and Parsing YouTube Captions._ Proceedings of the Society for Computation in Linguistics, 4(1). https://doi.org/10.7275/PZ9G-D780
