@@ -54,7 +54,7 @@ googleAnalytics = ""
     since = 2018
     author = "Mathew A. Kramer" # Author's name
     handle = "mathew"
-    MusicSubtitle = 'game music composer<br/>taiko artist @<br /><a href="https://michigantaiko.net" target="_blank">The Great Lakes Taiko Center</a>' # Subtitle
+    MusicSubtitle = 'sound designer & composer; <br/>taiko artist @<br /><a href="https://michigantaiko.net" target="_blank">The Great Lakes Taiko Center</a>' # Subtitle
     AcademicSubtitle = 'ph.d. candidate @<br/><a href="/about">the university of michigan</a>' # Subtitle
 
     cdn_url = "" # Base CDN URL
