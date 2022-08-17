@@ -48,6 +48,11 @@ googleAnalytics = ""
   [[menu.main]]
     name = "Taiko"
     url = "/taiko"
+    weight = 6
+
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume.pdf"
     weight = 5
 
 [params]
