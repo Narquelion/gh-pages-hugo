@@ -26,36 +26,46 @@ googleAnalytics = ""
 [menu]
 
   [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+    name = "Contact"
+    url = "mailto:mathew@mathewkramer.io"
+    weight = 1
+
+  #[[menu.main]]
+#    name = "About"
+#    url = "/about"
+#    weight = 2
 
   [[menu.main]]
-    name = "Research"
-    url = "/research"
+    name = "Resume"
+    url = "/MathewAKramer_ResumeFull.pdf"
     weight = 3
-
-  [[menu.main]]
-    name = "Music"
-    url = "/posts/"
-    weight = 2
 
   [[menu.main]]
     name = "CV"
     url = "/cv"
     weight = 4
 
+#  [[menu.main]]
+#    name = "Research"
+#    url = "/research"
+#    weight = 5
+
+  [[menu.main]]
+    name = "Music"
+    url = "/posts/"
+    weight = 5
+
   [[menu.main]]
     name = "Taiko"
     url = "/taiko"
-    weight = 5
+    weight = 6
 
 [params]
     since = 2018
     author = "Mathew A. Kramer" # Author's name
     handle = "mathew"
-    MusicSubtitle = 'sound designer & composer; <br/>taiko artist @<br /><a href="https://michigantaiko.net" target="_blank">The Great Lakes Taiko Center</a>' # Subtitle
-    AcademicSubtitle = 'ph.d. candidate @<br/><a href="/about">the university of michigan</a>' # Subtitle
+    MusicSubtitle = 'composer for interactive media //<br/>performing artist @ <br/><a href="https://michigantaiko.net" target="_blank">The Great Lakes Taiko Center</a>' # Subtitle
+    AcademicSubtitle = 'researcher, developer, <br/>& data scientist<br/><a href="mailto:mathew@mathewkramer.io" rel="me noopener noreffer">(hire me!)</a>' # Subtitle
 
     cdn_url = "" # Base CDN URL
     home_mode = "" # post or other
@@ -80,8 +90,8 @@ googleAnalytics = ""
 
 
 [params.social]
-    Email   = "arkram@umich.edu"
-    EmailOther = "mathew@mathewkramer.io"
+    #Email   = "mathew@mathewkramer.io"
+    #EmailOther = "mathew@superlumic.io"
 
     GitHub = "Narquelion"
     #Linkedin = "xxxx"
