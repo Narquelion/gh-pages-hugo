@@ -65,7 +65,7 @@ googleAnalytics = ""
     author = "Mathew A. Kramer" # Author's name
     handle = "mathew"
     MusicSubtitle = 'composer for interactive media //<br/>performing artist @ <br/><a href="https://michigantaiko.net" target="_blank">The Great Lakes Taiko Center</a>' # Subtitle
-    AcademicSubtitle = 'researcher, developer, <br/>& data scientist<br/><a href="mailto:mathew@mathewkramer.io" rel="me noopener noreffer">(hire me!)</a>' # Subtitle
+    AcademicSubtitle = 'researcher, developer, <br/>& data scientist<br/>' # Subtitle
 
     cdn_url = "" # Base CDN URL
     home_mode = "" # post or other
