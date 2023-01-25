@@ -8,7 +8,6 @@ type: cv
 
 | | |
 | ---: | :--- |
-| **2018–Present** | Ph. D. Linguistics, The University of Michigan |
 | **2022** | M.A. Linguistics, The University of Michigan |
 | **2016** | B.A. Linguistics, The University of Chicago |
 | **2016** | B.S. Computer Science, The University of Chicago |
